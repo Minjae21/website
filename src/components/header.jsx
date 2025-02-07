@@ -10,7 +10,7 @@ const Header = () => {
     return (
         <header className="header">
             <div className="logo-container">
-                <a href="#" onClick={scrollToHeader}><img src="/cloud.png" alt="Logo" className="pageLogo" /></a>
+                <a href="#" onClick={scrollToHeader}><img src="cloud.png" alt="Logo" className="pageLogo" /></a>
             </div>
             <nav className="nav">
                 <ul className="nav-links">
