@@ -1,12 +1,17 @@
-html {
-    scroll-behavior: smooth;
-}
-
-body {
+html, body {
+    height: 100%;
     margin: 0;
     font-family: "Inter";
     font-optical-sizing: auto;
     background-color: rgba(17, 21, 28);
+    display: flex;
+    flex-direction: column;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .header {
@@ -134,7 +139,7 @@ body {
 }
 
 .listHead {
-    margin-top: 1100px;
+    margin-top: 300px;
 }
 
 .bioHead {
@@ -151,10 +156,15 @@ body {
     font-size: 30px;
     font-weight: 600;
     color: #ddd;
+    text-align: left;
+    margin-left: 0;
+    width: 100%;
+    padding-left: 0;
     margin-top: 100px;
 }
 
 .bio {
+    text-align: left;
     font-size: 16px;
     color: #ddd;
     font-weight: 200;
@@ -162,7 +172,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
     margin: 0 auto;
     text-align: left;
     flex-direction: column;
@@ -368,4 +377,101 @@ body {
 .expBtn:hover span:after {
     opacity: 1;
     right: 0;
+}
+
+/* footer */
+label {
+    color: #dddddd;
+}
+
+.footer {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: left;
+}
+
+.footer h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #ddd;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    font-size: 16px;
+    color: #ddd;
+    font-weight: 200;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-row {
+    display: flex;
+}
+
+.form-row label {
+    flex: 1;
+}
+
+.contact_fields, .contact-msg {
+    width: 100%;
+    padding: 15px;
+    margin-top: 5px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    transition: border-color 0.3s ease;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.contact-msg {
+    height: 80px;
+}
+
+.contact_link {
+    color: #60aefceb;
+    text-decoration: none;
+}
+
+.footer input:focus,
+.footer textarea:focus {
+    outline: none;
+    border-color: #60aefceb;
+}
+
+.footer input::placeholder,
+.footer textarea::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer button {
+    margin-top: 10px;
+    padding: 15px 30px;
+    background-color: #60aefceb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    font-size: 16px;
+    width: 20%;
+    align-self: center;
+}
+
+.footer button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.footer button:hover:not(:disabled) {
+    background-color: #1a62ae;
 }
