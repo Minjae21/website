@@ -27,10 +27,26 @@ const ListItem = () => {
                 </div>
 
                 <div className="section">
+                    <img className="logo" src="country.jpeg" alt="country-logo" />
+                    <div className="sectionName-container">
+                        <a href="https://www.linkedin.com/company/countryfinancial/" target="_blank" className="sectionName">COUNTRY Financial</a>
+                        <p className="sectionDetail">Incoming Software Engineer Intern | Champaign, IL</p>
+                        <p className="sectionBio">
+                            {/* context */}
+                        </p>
+
+                        <a href="#" className="expBtn"><span>
+                            My Experience</span>
+                        </a>
+                    </div>
+                    <div className="sectionDate">May 2025</div>
+                </div>
+
+                <div className="section">
                     <img className="logo" src="carle.png" alt="carle-logo" />
                     <div className="sectionName-container">
                         <a href="https://medicine.illinois.edu/" target="_blank" className="sectionName">Carle Illinois Collge of Medicine</a>
-                        <p className="sectionDetail">Software Engineer</p>
+                        <p className="sectionDetail">Software Engineer | Champagin, IL</p>
                         <p className="sectionBio">Working on an AI-driven system with diagnostic algorithms to speed up overall algorithms and adding new features such as an AI bot.
                         </p>
 
@@ -38,29 +54,14 @@ const ListItem = () => {
                             My Experience</span>
                         </a>
                     </div>
-                    <div className="sectionDate">Oct 2024 ~</div>
-                </div>
-
-                <div className="section">
-                    <img className="logo" src="blockchain.png" alt="blockchain-logo" />
-                    <div className="sectionName-container">
-                        <a href="https://illiniblockchain.com/" target="_blank" className="sectionName">Illini Blockchain</a>
-                        <p className="sectionDetail">Software Engineer</p>
-                        <p className="sectionBio">Working on Web3 and blockchain-based software solutions at Illini Blockchain.
-                        </p>
-
-                        <a href="#" className="expBtn"><span>
-                            My Experience</span>
-                        </a>
-                    </div>
-                    <div className="sectionDate">Oct 2024 ~</div>
+                    <div className="sectionDate">Oct 2024 - Present</div>
                 </div>
 
                 <div className="section">
                     <img className="logo" src="mycritters.png" alt="mycritters-logo" />
                     <div className="sectionName-container">
                         <a href="#" target="_blank" className="sectionName">MyCritters</a>
-                        <p className="sectionDetail">SWE Intern</p>
+                        <p className="sectionDetail">Software Engineer Intern | Chicago, IL</p>
                         <p className="sectionBio">MyCritters is a healthcare startup providing software products for pet owners.
                         </p>
 
@@ -75,7 +76,7 @@ const ListItem = () => {
                     <img className="logo" src="scholarship.jpeg" alt="scholarship-logo" />
                     <div className="sectionName-container">
                         <a href="#" target="_blank" className="sectionName">Scholarship Auditions</a>
-                        <p className="sectionDetail">SWE Intern</p>
+                        <p className="sectionDetail">Software Engineer Intern | Nashville, TN</p>
                         <p className="sectionBio">Scholarship Auditions is an EdTech startup focused on connecting high school students and college recruiters.
                         </p>
 
@@ -84,6 +85,21 @@ const ListItem = () => {
                         </a>
                     </div>
                     <div className="sectionDate">May - Aug 2023</div>
+                </div>
+
+                <div className="section">
+                    <img className="logo" src="blockchain.png" alt="blockchain-logo" />
+                    <div className="sectionName-container">
+                        <a href="https://illiniblockchain.com/" target="_blank" className="sectionName">Illini Blockchain</a>
+                        <p className="sectionDetail">Software Engineer | Champaign, IL</p>
+                        <p className="sectionBio">Working on Web3 and blockchain-based software solutions at Illini Blockchain.
+                        </p>
+
+                        <a href="#" className="expBtn"><span>
+                            My Experience</span>
+                        </a>
+                    </div>
+                    <div className="sectionDate">Oct 2024 - Present</div>
                 </div>
 
                 <h2 id="listHeader" className="bioHeadP">
