@@ -16,12 +16,8 @@ const ListItem = () => {
                         <a href="https://illinois.edu/" target="_blank" className="sectionName">University of Illinois Urbana-Champaign</a>
                         <p className="sectionDetail">Computer Science</p>
                         <p className="sectionBio">I&apos;m currently in my junior year of Computer Science at the University of Illinois Urbana-Champaign.
-                            I&apos;m taking interesting courses such as artificial intelligence, algorithms, networking and operating systems.
+                            I&apos;m taking interesting courses such as Artificial Intelligence, Algorithms, Database Systems, Models of Computation, and Software Development.
                         </p>
-
-                        <a href="#" className="expBtn"><span>
-                            My Experience</span>
-                        </a>
                     </div>
                     <div className="sectionDate">May 2026</div>
                 </div>
@@ -30,16 +26,16 @@ const ListItem = () => {
                     <img className="logo" src="country.jpeg" alt="country-logo" />
                     <div className="sectionName-container">
                         <a href="https://www.linkedin.com/company/countryfinancial/" target="_blank" className="sectionName">COUNTRY Financial</a>
-                        <p className="sectionDetail">Incoming Software Engineer Intern | Champaign, IL</p>
+                        <p className="sectionDetail">Software Engineer Intern | Champaign, IL</p>
                         <p className="sectionBio">
-                            {/* context */}
+                            Building cool stuff
                         </p>
 
                         <a href="#" className="expBtn"><span>
                             My Experience</span>
                         </a>
                     </div>
-                    <div className="sectionDate">May 2025</div>
+                    <div className="sectionDate">May 2025 - Present</div>
                 </div>
 
                 <div className="section">
@@ -108,10 +104,24 @@ const ListItem = () => {
                 </h2>
                 <div className="containerP">
                     <div className="sectionP">
-                        <a href="#" target="_blank" className="sectionNameP">SLEEPS</a>
-                        <img className="sleeplogo" src="sleeps.png" alt="sleeps" />
+                        <a href="https://github.com/Minjae21/PartyMode" target="_blank" className="sectionNameP">PartyMode</a>
+                        <img className="sleeplogo" src="partymode.png" alt="partymode" />
                         <div className="sectionName-container">
-                            <p className="sectionBio">SLEEPS is an AI-driven system that analyzes user inputs to diagnose potential sleep disorders based on diagnostic algorithms and patterns in sleep behavior.
+                            <p className="sectionBio">
+                                🏆 UIUC Research Park 2025 Hackathon Winner (1st Place)<br></br><br></br>
+                                PartyMode is a real-time collaborative music queue app built for events, parties, and gatherings - all powered by Spotify Web API.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="sectionP">
+                        <a href="#" target="_blank" className="sectionNameP">WildRisk AI</a>
+                        <img style={{
+                            width: '450px',
+                            borderRadius: '10px',
+                        }} src="wildfire-map.png" alt="uiuc-logo" />
+                        <div className="sectionName-container">
+                            <p className="sectionBio">WildRisk AI is an AI-powered software that provides hyper-local wildfire risk predictions, explanations of contributing factors, and interactive visualizations of wildfire risk.
                             </p>
                         </div>
                     </div>
@@ -129,14 +139,6 @@ const ListItem = () => {
                         <img className="dailylogo" src="daily.png" alt="uiuc-logo" />
                         <div className="sectionName-container">
                             <p className="sectionBio">The Daily Illini website serves as a digital platform for student journalism, offering news, articles, and updates about campus events and student life.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="sectionP">
-                        <a href="#" target="_blank" className="sectionNameP">OpenSource House</a>
-                        <img className="logoP" src="ongoing.png" alt="uiuc-logo" />
-                        <div className="sectionName-container">
-                            <p className="sectionBio">OpenSource House is a collaborative community focused on developing and promoting open-source software, providing resources and support for developers and contributors.
                             </p>
                         </div>
                     </div>
