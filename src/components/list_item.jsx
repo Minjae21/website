@@ -115,7 +115,7 @@ const ListItem = () => {
                     </div>
 
                     <div className="sectionP">
-                        <a href="#" target="_blank" className="sectionNameP">WildRisk AI</a>
+                        <a href="https://github.com/Minjae21/WildRisk-AI" target="_blank" className="sectionNameP">WildRisk AI</a>
                         <img style={{
                             width: '450px',
                             borderRadius: '10px',
